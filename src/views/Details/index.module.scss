@@ -1,0 +1,70 @@
+.movie {
+    margin: 0 1em 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #303030;
+
+    
+
+
+
+    &__back {
+
+        img {
+            width: 100%;
+
+        }
+    }
+
+    &__description {
+        padding: 1em;
+        text-align: left;
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        h5 {
+            display: block;
+        }
+
+        p {
+            display: inline-block;
+            margin: 0.25em;
+        }
+
+        div {
+            display: block;
+            gap: 5rem;
+
+            div {
+
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width:910px) {
+    
+    .movie{
+        margin: 0 3em 3em;
+    &__description {
+
+        div {
+            display: flex;
+            gap: 5rem;
+
+            div {
+
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+    }
+}
+}

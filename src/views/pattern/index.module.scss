@@ -1,0 +1,9 @@
+.teste {
+    margin: 2rem 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .teste {
+        margin: 2rem 3rem;
+    }
+}

@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+
+
+    img {
+        width: 100px;
+        margin-bottom: 5%;
+    }
+
+    form {
+        width: 100%;
+        text-align: center;
+    }
+
+    input {
+        width: 90%;
+        background-color: #ffffff;
+        padding: 1rem 0;
+        border-radius: 8px;
+        border-style: none;
+        color: #303030;
+
+        &::placeholder{
+            background-size: 5%;
+            background-position: 5px;
+            padding: 1rem 3rem;
+            background-image: url("./img/lupa.svg");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        background-color: #303030;
+    
+        img {
+            width: 100px;
+            margin-bottom: 0;
+        }
+        
+        form {
+            width: 60%;
+            height: 10%;
+        }
+
+        input {
+            width: 98.5%;
+            background-color: #ffffff;
+            height: 5%;
+            padding: 0.75rem 0.5rem;
+            border-radius: 8px;
+            border-style: none;
+            color: #303030;
+    
+            &::placeholder{
+                background-size: 1.95%;
+                background-position: 2%;
+                padding-left: 5%;
+                background-image: url("./img/lupa.svg");
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    
+}
